@@ -1,0 +1,34 @@
+
+
+.hero{
+    background: url(media/bg2.jpg);
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color:white ;
+}
+
+.column{
+    cursor: pointer;
+}
+
+.bawahan{
+    width: 100%;
+    height: 5rem;
+    overflow: hidden;
+    color: white;
+}
+
+@media screen and (max-width: 720px){
+    .title{
+        padding-bottom: 15px;
+    }
+    .subtitle{
+        padding-bottom: 70px;
+    }
+    .hero{
+        padding-top: 15%;
+    }
+
+    
+}
